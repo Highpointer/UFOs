@@ -35,7 +35,6 @@ console.log("The table is built");
 
 // 1. Create a variable to keep track of all the filters as an object.
 
-let filteredData = tableData;
 var datafilter = 
   {
     datefilter: "datetime",
@@ -72,13 +71,14 @@ function updateFilters() {
 
   updateTable();
   
-  buildTable(tableData);
+  //buildTable(tableData);
 
 }
 
 function updateTable() {
   //let filterId = changedElement.attr("id");
-
+  let filteredData = tableData;
+  
   let datefilter = d3.select("#datetime").property("value");
   let cityfilter = d3.select("#city").property("value");
   let statefilter = d3.select("#state").property("value");
@@ -99,8 +99,9 @@ function updateTable() {
 
 //     // 4a. Save the element that was changed as a variable.
 
-      let filteredData = datafilter;
+      //let filteredData = datafilter;
       console.log("Filter:", filteredData);
+      buildTable(filteredData);
 }
 //     // 4b. Save the value that was changed as a variable.
 
