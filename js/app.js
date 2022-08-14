@@ -4,11 +4,6 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select("tbody");
 
-// Simple JavaScript console.log statement
-function printHello() {
-    console.log("Hello World");
-  }
-
 function buildTable(data) {
   // First, clear out any existing data
   tbody.html("");
@@ -22,8 +17,7 @@ function buildTable(data) {
     Object.values(dataRow).forEach((val) => {
       let cell = row.append("td");
       cell.text(val);
-      }
-    );
+    });
   });
 }
 

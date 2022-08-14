@@ -16,7 +16,7 @@
     <div class="wrapper">
         <nav class="navbar navbar-expand-lg"></nav>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">UFO Sightings</a>
+            <a class="navbar-brand" href="index_new.html">UFO Sightings</a>
         </nav>
     </div>
     <div class="jumbotron">
@@ -40,37 +40,39 @@
         </div>
       </div>
     </div>
+    <!--- filter --->
     <div class="container-fluid">
-      <div class ="row">
-        <div class="col-md-3">
+      <div class="row">
+        <div class="col-md-2">
           <form>
             <p>Filter Search</p>
           </form>
-          <ul class="list-group">
+              <ul class="list-group">
+              </ul>
+              <li class="list-group-item">
+                <label for="datetime" class="btn btn-dark">Enter Date</label>
+                <input type="text" class="col-md-10" placeholder="1/1/2010" id="datetime" />
+              </li>
+              <li class="list-group-item">
+                <label for="city" class="btn btn-dark">Enter City</label>
+                <input type="text" class="col-md-10" placeholder="phoenix" id="city" />
+              </li>
+              <li class="list-group-item">
+                <label for="state" class="btn btn-dark">Enter State</label>
+                <input type="text" class="col-md-10" placeholder="az" id="state" />
+              </li>
+              <li class="list-group-item">
+                <label for="country" class="btn btn-dark">Enter Country</label>
+                <input type="text" class="col-md-10" placeholder="us" id="country" />
+              </li>
+              <li class="list-group-item">
+                <label for="shape" class="btn btn-dark">Enter Shape</label>
+                <input type="text" class="col-md-10" placeholder="sphere" id="shape" />
+              </li>
+            </div>
 
-          </ul>
-          <li class="list-group-item">
-            <label for="date" class="btn btn-dark"><color=black>Enter Date</label>
-            <input type="text" placeholder="1/1/2010" id="date" />
-          </li>
-          <li class="list-group-item">
-            <label for="city" class="btn btn-dark">Enter City</label>
-            <input type="text" placeholder="phoenix" id="city" />
-          </li>
-          <li class="list-group-item">
-            <label for="state" class="btn btn-dark">Enter State</label>
-            <input type="text" placeholder="az" id="state" />
-          </li>
-          <li class="list-group-item">
-            <label for="country" class="btn btn-dark">Enter Country</label>
-            <input type="text" placeholder="us" id="country" />
-          </li>
-          <li class="list-group-item">
-            <label for="shape" class="btn btn-dark">Enter Shape</label>
-            <input type="text" placeholder="sphere" id="shape" />
-          </li>
-        </div>
-        <div class="col-md-9">
+              <div class="col-md-10">
+              <table class="table table-striped">
           <table class="table table-striped">
             <thead>
               <tr>
@@ -90,6 +92,6 @@
     </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="C:/Users/KenAk/UFOs/js/data.js"></script>
-  <script src="C:/Users/KenAk/UFOs/js/app.js"></script>
+  <script src="C:/Users/KenAk/UFOs/js/app2.js"></script>
 </body>
 </html
