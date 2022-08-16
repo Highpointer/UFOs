@@ -26,7 +26,9 @@ The home page features a panoramic banner at the top, followed by a written summ
 • Duration
 • Comments
 
-There are over 100 observations recorded in the database. To make it easier to find data, the home page is linked to a JavaScript program to enable the user to select only those records that match relevant criteria.
+There are over 100 observations recorded in the database, as shown below. To make it easier to find data, the home page is linked to a JavaScript program to enable the user to select only those records that match relevant criteria.
+
+![Full_webpage](images/Full_webpage.png)
 
 To the left of the data table is a column titled "Filter Search." In these data fields, the user can filter by relevant criteria by entering values in one or more of the search boxes. Placeholder data (in grey) is initially placed in the boxes, as shown here:
 
@@ -43,4 +45,3 @@ If one selects only the "City" data, then JavaScript returns all observations re
 To return to the original full database listing, clear the Filter Search boxes and refresh the home page.
 
 Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
-
