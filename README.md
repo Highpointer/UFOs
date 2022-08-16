@@ -1,10 +1,10 @@
 # UFOs
 
-#### IMPORTANT NOTE: With the help of AskBCS Learning Assistants, I got the JavaScript and HTML files working as intended. However, the naming conventions may not match the names as exactly stated in the Challenge requirements. I don't want risk renaming files and messing up what is working. 
+##### IMPORTANT NOTE: With the help of AskBCS Learning Assistants, I got the JavaScript and HTML files working as intended. However, the naming conventions may not match the names as exactly stated in the Challenge requirements. I don't want risk renaming files and messing up what is working. 
 
-#### Therefore, the working Javascript file is app2.js, and the working HTML file is index_new.html. If I need to change these names, then please let me know and I will do that, and resubmit.
+##### Therefore, the working Javascript file is app2.js, and the working HTML file is index_new.html. If I need to change these names, then please let me know and I will do that, and resubmit.
 
-###### Overview of Project: Explain the purpose of this analysis.
+##### Overview of Project: Explain the purpose of this analysis.
 
 ###### The purpose of this analyis is to write a JavaScript module to filter UFO data observations by following criteria, as selected by the user:
 
@@ -14,7 +14,7 @@
 • Country of observations (us for USA or ca for Canada)
 • Shape of the UFO as noted by observer (i.e. circle, triangle, sphere, disk, cigar, etc.)
 
-###### Results: How to use the webpage
+##### Results: How to use the webpage
 
 The home page features a panoramic banner at the top, followed by a written summary of the project. Below the written summary is a list of all of the UFO sightings in the database. Each line of UFO data includes the following column headers:
 
