@@ -4,7 +4,7 @@
 
 ##### Therefore, the working Javascript file is app2.js, and the working HTML file is index_new.html. If I need to change these names, then please let me know and I will do that, and resubmit.
 
-##### Overview of Project: Explain the purpose of this analysis.
+#### Overview of Project: Explain the purpose of this analysis.
 
 ###### The purpose of this analyis is to write a JavaScript module to filter UFO data observations by the following criteria, as selected by the user:
 
@@ -14,7 +14,7 @@
 • Country of observations (us for USA or ca for Canada)</p>
 • Shape of the UFO as noted by observer (i.e. circle, triangle, sphere, disk, cigar, etc.)</p>
 
-##### Results: How to use the webpage
+#### Results: How to use the webpage
 
 The home page features a panoramic banner at the top, followed by a written summary of the project. Below the written summary is a list of all of the UFO sightings in the database. Each line of UFO data includes the following column headers:
 
@@ -52,4 +52,6 @@ If one selects only the "City" data, the JavaScript returns all observations rec
 
 To return to the original full database listing, clear the Filter Search boxes and refresh the home page.
 
-Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+#### Summary
+
+One drawback of this design is that data entry is case-sensitive 
