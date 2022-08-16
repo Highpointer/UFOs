@@ -18,7 +18,7 @@
 
 The home page features a panoramic banner at the top, followed by a written summary of the project. Below the written summary is a list of all of the UFO sightings in the database. Each line of UFO data includes the following column headers:
 
-• Date
+• Date</p>
 • City	
 • State	
 • Country	
