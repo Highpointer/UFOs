@@ -19,12 +19,12 @@
 The home page features a panoramic banner at the top, followed by a written summary of the project. Below the written summary is a list of all of the UFO sightings in the database. Each line of UFO data includes the following column headers:
 
 • Date</p>
-• City	
-• State	
-• Country	
-• Shape
-• Duration
-• Comments
+• City</p>	
+• State</p>	
+• Country</p>	
+• Shape</p>
+• Duration</p>
+• Comments</p>
 
 There are over 100 observations recorded in the database, as shown below. To make it easier to find data, the home page is linked to a JavaScript program to enable the user to select only those records that match relevant criteria.
 
@@ -32,15 +32,23 @@ There are over 100 observations recorded in the database, as shown below. To mak
 
 To the left of the data table is a column titled "Filter Search." In these data fields, the user can filter by relevant criteria by entering values in one or more of the search boxes. Placeholder data (in grey) is initially placed in the boxes, as shown here:
 
-When the user enters data in a search box, that data entry turns red to show that it is user input. For example, to find all of the UFO observations on 1/4/2010, the user enters that date in the first search box, and clicks the button or hits the "Enter" key. 
+![Filter_Search](images/Filter_Search.png)
 
-This returns eight observations recorded on that day:
+When the user enters data in a search box, that data entry turns red to show that it is user input. For example, to find all of the UFO observations on 1/4/2010, the user enters that date in the first search box, and clicks the button or hits the "Enter" key. This returns eight observations recorded on that day:
+
+![Jan_4](images/Jan_4.png)
 
 If the user wants to select only those observations on that day in a single state - i.e. California (ca), then the user enters the two-letter state abbreviation in the appropriate box:
 
+![Jan_4_ca](images/Jan_4_ca.png)
+
 This reduces the original eight observations of 1/4/2010 to the three recorded in California. The user can continue refining the search by adding additional criteria - in this example, adding "light" to the filter by shape, which returns two records:
 
-If one selects only the "City" data, then JavaScript returns all observations recorded in the city of that name, even if they are different cities with the same name in two or more different states. In this example, there are two observations made in cities with the name "Cleveland," one in Ohio and the other in Tennessee:
+![Jan_4_ca_light](images/Jan_4_ca_light.png)
+
+If one selects only the "City" data, the JavaScript returns all observations recorded in the city of that name, even if they are different cities with the same name in two or more different states. In this example, there are two observations made in cities with the name "Cleveland," one in Ohio and the other in Tennessee:
+
+![Cleveland](images/Cleveland.png)
 
 To return to the original full database listing, clear the Filter Search boxes and refresh the home page.
 
