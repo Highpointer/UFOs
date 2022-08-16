@@ -8,7 +8,7 @@
 
 ###### The purpose of this analyis is to write a JavaScript module to filter UFO data observations by the following criteria, as selected by the user:
 
-• Date of observation
+• Date of observation</p>
 • City or town where observation made
 • State or province where city or town is located
 • Country of observations (us for USA or ca for Canada)
